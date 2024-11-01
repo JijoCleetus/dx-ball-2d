@@ -1,0 +1,36 @@
+body {
+  padding: 10px;
+  margin: 10px;
+}
+canvas {
+  background-color: #d3f5f5;
+  border: 1px solid;
+}
+.action-bar {
+  margin-top: 10px;
+  width: 480px;
+  display: flex;
+  justify-content: center;
+}
+button {
+  display: block;
+}
+.action-btn {
+  background-repeat: no-repeat;
+  height: 32px;
+  width: 32px;
+  border: none;
+  border-radius: 12px;
+  outline: none;
+  margin-left: 10px;
+}
+.start-btn {
+  background-image: url("./images/play.png");
+}
+.reload-btn {
+  background-image: url("./images/reload.png");
+}
+
+.start-btn:focus {
+  border: none;
+}
